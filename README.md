@@ -21,5 +21,5 @@ To install the commands to your powershell, follow these steps:
 . "PATH_TO_SCRIPT_FOLDER\nano.ps1"
 . "PATH_TO_SCRIPT_FOLDER\touch.ps1"
 ```
-	> Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
+Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
 

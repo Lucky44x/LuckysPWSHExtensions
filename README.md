@@ -2,8 +2,8 @@
 
 Currently, there are 2 commands:
 ```
-	-touch [fileName]
-	-nano [fileName]
+- touch [fileName]
+- nano [fileName]
 ```
 
 ```touch``` is basically just the linux version, and creates a file with the specified name

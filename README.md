@@ -13,17 +13,18 @@ Currently, there are 2 commands:
 
 
 ## Installation
-To install the commands to your powershell, follow these steps:
-> DISCLAIMER: I have no idea if this is the best way to do it, but it workes for me, so yeah
-
+**I have no idea if this is the best way to do it, but it works for me, so yeah**  
+<br/>
+To install the commands to your powershell, follow these steps:  
+	
 - Open your powershell-profile. You should be able to obtain it's path by executing ```$PROFILE```
-	> If you have visual-studio-code installed, you can also execute ```code $PROFILE```
-
+	> If you have visual-studio-code installed, you can also execute ```code $PROFILE```  
+  <br/>
 - Add the following lines to your profile:
 ```
 . "PATH_TO_SCRIPT_FOLDER\nano.ps1"
 . "PATH_TO_SCRIPT_FOLDER\touch.ps1"
 ```
 
-Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
+	Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
 

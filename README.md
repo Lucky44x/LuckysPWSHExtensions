@@ -1,4 +1,4 @@
-# LuckysPWSHextensions
+# LuckysPWSHExtensions
 
 Currently, there are 2 commands:
 ```
@@ -14,12 +14,15 @@ Currently, there are 2 commands:
 
 ## Installation
 To install the commands to your powershell, follow these steps:
+
 - Open your powershell-profile. You should be able to obtain it's path by executing ```$PROFILE```
 	> If you have visual-studio-code installed, you can also execute ```code $PROFILE```
+
 - Add the following lines to your profile:
 ```
 . "PATH_TO_SCRIPT_FOLDER\nano.ps1"
 . "PATH_TO_SCRIPT_FOLDER\touch.ps1"
 ```
+
 Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
 

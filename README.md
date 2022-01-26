@@ -14,6 +14,7 @@ Currently, there are 2 commands:
 
 ## Installation
 To install the commands to your powershell, follow these steps:
+> DISCLAIMER: I have no idea if this is the best way to do it, but it workes for me, so yeah
 
 - Open your powershell-profile. You should be able to obtain it's path by executing ```$PROFILE```
 	> If you have visual-studio-code installed, you can also execute ```code $PROFILE```

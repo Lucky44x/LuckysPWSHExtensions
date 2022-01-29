@@ -28,3 +28,24 @@ To install the commands to your powershell, follow these steps:
 
 	Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
 
+
+##Usage
+The nano command is very simple, you just execute "nano" with your path as an argument
+```nano ~/test/main.js```  
+
+The touch command, on the other hand, has two optional arguments:
+```
+-dir
+-con
+```
+```-dir``` tells the command, that it should create a directory, not a file  
+```-con``` tells the command, that it should set the content of the **created file** to the following text  
+Creating a file would look something like this
+```
+touch main.js
+touch main.js -con ppconsole.print("HelloWorld");
+```  
+While creating a directory would look like this
+```
+touch JSExample -dir
+```

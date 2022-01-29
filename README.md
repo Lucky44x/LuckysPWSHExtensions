@@ -49,3 +49,5 @@ While creating a directory would look like this
 ```
 touch JSExample -dir
 ```
+
+After creating the directory or file, a global variable named $DIR will be created, so you can just do ```cd $DIR``` to enter the directory, or do ```nano $DIR``` to open the created file

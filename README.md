@@ -43,7 +43,7 @@ The touch command, on the other hand, has two optional arguments:
 Creating a file would look something like this
 ```
 touch main.js
-touch main.js -con ppconsole.print("HelloWorld");
+touch mainWithCode.js -con ppconsole.print("HelloWorld");
 ```  
 While creating a directory would look like this
 ```

@@ -18,21 +18,7 @@ Currently, there are 3 commands:
 ## Installation
 **I have no idea if this is the best way to do it, but it works for me, so yeah**  
 <br/>
-To install the commands to your powershell, follow these steps:  
-	
-- Open your powershell-profile. You should be able to obtain it's path by executing ```$PROFILE```
-	> If you have visual-studio-code installed, you can also execute ```code $PROFILE```  
-  <br/>
-- Add the following lines to your profile:
-```
-. "PATH_TO_SCRIPT_FOLDER\nano.ps1"
-. "PATH_TO_SCRIPT_FOLDER\touch.ps1"
-. "PATH_TO_SCRIPT_FOLDER\javaX.ps1"
-```
-
-	Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
-
-Alternatively, you can also add the script folder to your System's path variable
+To install these commands, you can simply add this folder to your system's path variable
 
 ## Usage
 The nano command is very simple, you just execute "nano" with your path as an argument

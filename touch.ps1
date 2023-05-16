@@ -1,6 +1,4 @@
 function touch {
-    $global:dir = "~"
-
     if($args.length -eq 0){
         Write-Host "Please state a file/folder name"
         return
@@ -22,6 +20,4 @@ function touch {
     else{
         new-item -Path ($args[0]) -ItemType Directory
     }
-
-    $global:dir = $args[0]
 }

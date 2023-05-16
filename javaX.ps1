@@ -1,3 +1,6 @@
+# Taken from https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/
+# Original code by Sven Woltmann, modified to suit my specific needs
+
 param($java_version, $perm)
 
 $path = "C:\Program Files\Java\jre-1.8"

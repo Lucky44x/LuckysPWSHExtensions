@@ -1,14 +1,17 @@
 # LuckysPWSHExtensions
 
-Currently, there are 2 commands:
+Currently, there are 3 commands:
 ```
 - touch [fileName]
 - nano [fileName]
+- javaX [javaversion (20 - 10 and 8 {fuck java 9} )] [perm (permanent env variable change)]
 ```
 
 ```touch``` is basically just the linux version, and creates a file with the specified name
 
 ```nano```, on the other hand, only works when git is installed and opens the nano in-terminal editor of the file you've specified
+
+```javaX``` will change the current enviornments java variable to the desired version (You'll have to set the javapath variable with the JAVA_HOME method)
 
 
 
@@ -24,12 +27,14 @@ To install the commands to your powershell, follow these steps:
 ```
 . "PATH_TO_SCRIPT_FOLDER\nano.ps1"
 . "PATH_TO_SCRIPT_FOLDER\touch.ps1"
+. "PATH_TO_SCRIPT_FOLDER\javaX.ps1"
 ```
 
 	Of course you should replace "PATH_TO_SCRIPT_FOLDER" with the actual path
 
+Alternatively, you can also add the script folder to your System's path variable
 
-##Usage
+## Usage
 The nano command is very simple, you just execute "nano" with your path as an argument
 ```nano ~/test/main.js```  
 

@@ -5,6 +5,8 @@ param($java_version, $perm)
 
 $path = "C:\Program Files\Java\jre-1.8"
 switch($java_version){
+    "22" {$path = "C:\Program Files\Java\jdk-22"}
+    "21" {$path = "C:\Program Files\Java\jdk-21"}
     "20" {$path = "C:\Program Files\Java\jdk-20"}
     "19" {$path = "C:\Program Files\Java\jdk-19"}
     "18" {$path = "C:\Program Files\Java\jdk-18.0.2.1"}
